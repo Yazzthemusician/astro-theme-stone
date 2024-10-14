@@ -13,6 +13,7 @@
     "@alpinejs/collapse": "3.12.3",
     "@astrojs/tailwind": "4.0.0",
     "@fontsource/inter": "5.0.8",
+    "@sanity/client": "^6.22.1",
     "@stackbit/cms-contentful": "^1.0.17",
     "@types/alpinejs": "3.7.2",
     "alpinejs": "3.12.3",
