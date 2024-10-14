@@ -1,0 +1,4 @@
+CONTENTFUL_SPACE_ID=tu_space_id
+CONTENTFUL_ENVIRONMENT=tu_environment_id
+CONTENTFUL_PREVIEW_TOKEN=tu_preview_token
+CONTENTFUL_MANAGEMENT_TOKEN=tu_management_token
