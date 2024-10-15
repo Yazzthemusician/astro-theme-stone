@@ -1,0 +1,38 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header';
+---
+
+<Layout title="Recursos - UnionLink">
+  <Header client:load />
+  <main class="container mx-auto py-8">
+    <h1 class="text-4xl font-bold mb-6">Recursos</h1>
+    <p class="text-xl mb-8">Accede a recursos útiles para proteger tus derechos laborales y mejorar tu situación laboral.</p>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div class="bg-gray-100 p-6 rounded-lg">
+        <h2 class="text-2xl font-bold mb-4">Documentos Legales</h2>
+        <ul class="list-disc list-inside space-y-2">
+          <li><a href="#" class="text-blue-600 hover:underline">Modelo de contrato laboral</a></li>
+          <li><a href="#" class="text-blue-600 hover:underline">Formulario de denuncia laboral</a></li>
+          <li><a href="#" class="text-blue-600 hover:underline">Guía de derechos del trabajador</a></li>
+        </ul>
+      </div>
+      <div class="bg-gray-100 p-6 rounded-lg">
+        <h2 class="text-2xl font-bold mb-4">Cursos en Línea</h2>
+        <ul class="list-disc list-inside space-y-2">
+          <li><a href="#" class="text-blue-600 hover:underline">Introducción a los derechos laborales</a></li>
+          <li><a href="#" class="text-blue-600 hover:underline">Negociación efectiva en el trabajo</a></li>
+          <li><a href="#" class="text-blue-600 hover:underline">Seguridad y salud laboral</a></li>
+        </ul>
+      </div>
+      <div class="bg-gray-100 p-6 rounded-lg">
+        <h2 class="text-2xl font-bold mb-4">Enlaces Útiles</h2>
+        <ul class="list-disc list-inside space-y-2">
+          <li><a href="#" class="text-blue-600 hover:underline">Ministerio de Trabajo</a></li>
+          <li><a href="#" class="text-blue-600 hover:underline">Organización Internacional del Trabajo</a></li>
+          <li><a href="#" class="text-blue-600 hover:underline">Directorio de Sindicatos</a></li>
+        </ul>
+      </div>
+    </div>
+  </main>
+</Layout>

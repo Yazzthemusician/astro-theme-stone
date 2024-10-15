@@ -1,0 +1,19 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header';
+---
+
+<Layout title="Derechos Laborales - UnionLink">
+  <Header client:load />
+  <main class="container mx-auto py-8">
+    <h1 class="text-4xl font-bold mb-6">Derechos Laborales</h1>
+    <p class="text-xl mb-8">Conoce tus derechos como trabajador y cómo protegerlos.</p>
+    <ul class="list-disc list-inside space-y-2">
+      <li>Derecho a un salario justo</li>
+      <li>Derecho a condiciones de trabajo seguras</li>
+      <li>Derecho a la no discriminación</li>
+      <li>Derecho a la libertad de asociación y negociación colectiva</li>
+      <li>Derecho a vacaciones y descansos</li>
+    </ul>
+  </main>
+</Layout>

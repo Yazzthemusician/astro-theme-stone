@@ -1,0 +1,32 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header';
+---
+
+<Layout title="Sindicatos - UnionLink">
+  <Header client:load />
+  <main class="container mx-auto py-8">
+    <h1 class="text-4xl font-bold mb-6">Sindicatos</h1>
+    <p class="text-xl mb-8">Encuentra el sindicato adecuado para ti y conoce cómo pueden ayudarte.</p>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+      <div class="bg-gray-100 p-6 rounded-lg">
+        <h2 class="text-2xl font-bold mb-4">Beneficios de unirse a un sindicato</h2>
+        <ul class="list-disc list-inside space-y-2">
+          <li>Negociación colectiva para mejores salarios y condiciones</li>
+          <li>Protección contra despidos injustos</li>
+          <li>Asesoramiento legal en asuntos laborales</li>
+          <li>Formación y desarrollo profesional</li>
+        </ul>
+      </div>
+      <div class="bg-gray-100 p-6 rounded-lg">
+        <h2 class="text-2xl font-bold mb-4">Cómo unirse a un sindicato</h2>
+        <ol class="list-decimal list-inside space-y-2">
+          <li>Investiga los sindicatos disponibles en tu sector</li>
+          <li>Contacta con el representante sindical en tu lugar de trabajo</li>
+          <li>Asiste a una reunión informativa</li>
+          <li>Completa el formulario de afiliación</li>
+        </ol>
+      </div>
+    </div>
+  </main>
+</Layout>
